@@ -1,8 +1,12 @@
 {
   "name": "mio-services",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "NodeJS microservices with callbacks based on RabbitMQ queues",
   "homepage": "http://gromy.co",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Gromyco/mio-services"
+  },
   "main": "mio-services.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
