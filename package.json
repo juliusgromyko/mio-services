@@ -1,0 +1,25 @@
+{
+  "name": "mio-services",
+  "version": "1.0.2",
+  "description": "NodeJS microservices with callbacks based on RabbitMQ queues",
+  "main": "mio-services.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MIO",
+    "RabbitMQ",
+    "microservices",
+    "services",
+    "hight",
+    "load",
+    "node",
+    "npm"
+  ],
+  "author": "Julius Gromyko",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "0.5.1",
+    "uuid": "2.0.3"
+  }
+}
