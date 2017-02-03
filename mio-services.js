@@ -97,7 +97,7 @@ function client(amqpServer, cb){
             delete expectedQueue[corrId];
 
             var data = JSON.parse(msg.content.toString());
-            resolver(data);
+            resolver(null, data);
           }
         }, {noAck: true});
 

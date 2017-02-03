@@ -1,6 +1,6 @@
 {
   "name": "mio-services",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "NodeJS microservices with callbacks based on RabbitMQ queues",
   "homepage": "http://gromy.co",
   "repository": {

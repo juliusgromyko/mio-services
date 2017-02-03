@@ -1,6 +1,6 @@
 const services = require('./mio-services');
 
-services.service('demo', null, (err, srv)=>{
+services.service('hello', 'localhost', (err, srv)=>{
   if(err){
     console.log(err);
   }else{
@@ -10,7 +10,7 @@ services.service('demo', null, (err, srv)=>{
       console.log('GOT DATA');
       console.log(data);
 
-      cb(null, {ok: 'ok'});
+      cb(null, 'COOL!');
     });
   }
 });
